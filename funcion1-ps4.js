@@ -1,4 +1,5 @@
 function deepEqual(a, b) {
+  let equal;
 
   if (typeof a === 'object' && typeof b === 'object'){
     if (Object.keys(a).length === Object.keys(b).length){
